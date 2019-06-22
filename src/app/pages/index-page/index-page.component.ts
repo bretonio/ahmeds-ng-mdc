@@ -8,6 +8,6 @@ import { Title } from "@angular/platform-browser";
 })
 export class IndexPage {
   constructor(private title: Title) {
-    this.title.setTitle("TEDxCairoUniversity | Official Website");
+    this.title.setTitle("O Gran Bretônio | Engenhoca Nova");
   }
 }
