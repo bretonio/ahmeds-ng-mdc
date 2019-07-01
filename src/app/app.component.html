@@ -1,7 +1,7 @@
 <mdc-app-bar [mdcElevation]="5" #appbar [fixed]="true" [fixedAdjustElement]="mainContent" class="dignity">
   <mdc-app-bar-row>
     <mdc-app-bar-section align="start" class="with dignity" style="font-size: 22px;">
-      <mdc-icon mdcAppBarNavIcon (click)="appdrawer.open()">menu</mdc-icon><i class="fas fa-sun fa-2x mr-2"></i>&nbsp;&nbsp;Engenho Novo LLC
+      <mdc-icon mdcAppBarNavIcon (click)="appdrawer.open()">menu</mdc-icon><i class="fas fa-sun fa-2x mr-3"></i>Engenho Novo LLC
     </mdc-app-bar-section>
   </mdc-app-bar-row>
 </mdc-app-bar>
@@ -13,7 +13,7 @@
 
         <mdc-list-divider></mdc-list-divider>
 
-        <div class="top-list with dignity">
+        <div class="top-list">
 
           <a [ngClass]="{'active-item': pageTitle === 'home' }" mdc-list-item [routerLink]="['/']" routerLinkActive #rlaHome="routerLinkActive">
             <mdc-icon [ngClass]="{'active-icon': pageTitle === 'home' }" [fontSize]="25" mdcListItemGraphic>rowing</mdc-icon>Fim da Picada
@@ -49,7 +49,6 @@
           </a>
 
         </div>
-        <mdc-list-divider></mdc-list-divider>
         <div class="bottom-list">
           <a [ngClass]="{'active-item' : pageTitle === 'contact'}" mdc-list-item [routerLink]="['night-visitors']" routerLinkActive #rlaHome="routerLinkActive">
             <mdc-icon [ngClass]="{'active-icon': pageTitle === 'contact' }" [fontSize]="25" mdcListItemGraphic>fastfood</mdc-icon>In and Out Burger
