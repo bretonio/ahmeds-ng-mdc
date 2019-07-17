@@ -16,6 +16,7 @@ import { MdcButtonModule } from '@angular-mdc/web';
 // material components
 import { AppMaterialModule } from "./material.module";
 import { NightVisitorsComponent } from './pages/night-visitors/night-visitors.component';
+import { NajibMahfouzComponent } from './pages/najib-mahfouz/najib-mahfouz.component';
 import { MuhammadComponent } from './pages/muhammad/muhammad.component';
 import { HamidComponent } from './pages/hamid/hamid.component';
 import { PyramidsComponent } from './pages/pyramids/pyramids.component';
@@ -106,7 +107,7 @@ const appRoutes: Routes = [
 
 
 @NgModule({
-  declarations: [AppComponent, IndexPage, NightVisitorsComponent, MuhammadComponent, HamidComponent, PyramidsComponent, SindbadComponent, ShahrazadComponent, ShahriyarComponent, HarunComponent, AliBabaComponent, AbuNuwasComponent, BarberOfBaghdadComponent, AlMustansirComponent, AhmedCairenseComponent],
+  declarations: [AppComponent, IndexPage, NightVisitorsComponent, MuhammadComponent, DromedariesComponent, HamidComponent, NajibMahfouzComponent, PyramidsComponent, SindbadComponent, ShahrazadComponent, ShahriyarComponent, HarunComponent, AliBabaComponent, AbuNuwasComponent, BarberOfBaghdadComponent, AlMustansirComponent, AhmedCairenseComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
